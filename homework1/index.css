@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    background-image: url(pexels-karolina-grabowska-4466492.jpg);
+}
+span.highlight{
+    color:red;
+    font-weight:bold;
+}
+table {
+    width: 100%;
+}
+table tr:nth-child(odd) {
+    background-color: #b8b3b3;
+}
+.center-content {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
